@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <title>Create Account</title>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+	    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+	    rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"
+	    th:href="@{/assets/css/styles/createAccount.css}">
+	
+</head>
+
+<body>
+	<form  name="accountinfo"
+	    method="post"
+        role="form"
+        th:action="@{/createAccount}"
+        th:object="${user}">
+           
+		<div class="user-info">
+			<div class="head"></div>
+			<h1 class="form-title">Create Account</h1>
+                
+            <b th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Please enter a valid username!</b>
+			<input type="text" class="username" placeholder="Username" th:field="*{username}" name=username> 
+                       
+            <b th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Please enter a valid password!</b>           
+			<input type="text" class="password" placeholder="Password" name=password th:field="*{password}">
+			
+			<b th:if="${#fields.hasErrors('confirm_pass')}" th:errors="*{confirm_pass}">Passwords do not match!</b> 
+			<input type="text" class="password" placeholder="Confirm Password" name="confirm_pass"> 
+			
+			<input type="submit" class="confirm-button" value="CONFIRM">
+			<a href="login">&larr; Back to Login</a>
+		</div>
+	</form>
+</body>
+
+</html>
