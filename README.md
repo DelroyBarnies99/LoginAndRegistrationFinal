@@ -15,7 +15,7 @@ I use spring tool suite to run this application but it will work with any java s
 
 1. Import the project into spring tool suite with java ee enabled.
 2. Make sure all dependencies and starter poms are imported in the "pom.xml" file.
-3. Create the mysql database with the name loginandreg. This is very important as the project will not work without it!!
+3. Create the mysql database with the name loginandreg. 
 4. Right click on the project and select run as spring boot project.
 5. Go to your default browser and search for "http://localhost:8080/createAccount" to create your first account.
 
