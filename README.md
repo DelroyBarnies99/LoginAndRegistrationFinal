@@ -11,7 +11,7 @@ I used Thymeleaf used for templating web pages and providing form field validati
 
 ## Installation
 
-I use spring tool suite to run this application but will work with any java spring boot environment. 
+I use spring tool suite to run this application but it will work with any java spring boot environment. 
 
 1. Import the project into spring tool suite with java ee enabled.
 2. Make sure all dependencies and starter poms are imported in the "pom.xml" file.
