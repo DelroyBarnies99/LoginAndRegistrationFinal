@@ -1,7 +1,7 @@
 # LoginAndRegistrationFinal
 This project uses Spring boot and Spring security to allow users to login and register and stores user information in a mysql database. 
 All passwords stored in the database are encrypted and users are provided roles for either user or admin. 
-All web pages where designed by me in hTML and CSS for styling. 
+All web pages where designed by me in HTML and CSS for styling. 
 I used Thymeleaf used for templating web pages and providing form field validations.
 
 
