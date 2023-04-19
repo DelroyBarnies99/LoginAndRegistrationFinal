@@ -11,7 +11,6 @@ I used Thymeleaf used for templating web pages and providing form field validati
 
 ## Installation
 
-I use spring tool suite to run this application but it will work with any java spring boot environment. 
 Here's a guide on how to import a project into spring tool suite:
 https://websparrow.org/misc/how-to-import-spring-boot-project-in-eclipse-sts-ide
 
