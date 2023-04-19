@@ -14,6 +14,8 @@ I used Thymeleaf used for templating web pages and providing form field validati
 Here's a guide on how to import a project into spring tool suite:
 https://websparrow.org/misc/how-to-import-spring-boot-project-in-eclipse-sts-ide
 
+After importing here are the following steps:
+
 1. Import the project into spring tool suite with java ee enabled.
 2. Make sure all dependencies and starter poms are imported in the "pom.xml" file.
 3. Create the mysql database with the name as "loginandreg". 
